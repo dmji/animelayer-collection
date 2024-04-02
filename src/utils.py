@@ -1,6 +1,10 @@
 import os
 from src.const_parameters import *
 
+def get_extension(filename):
+    base_name, extension = os.path.splitext(filename)
+    return extension
+
 def change_extension(filename, ext):
     base_name, extension = os.path.splitext(filename)
     return f"{base_name}{ext}"
