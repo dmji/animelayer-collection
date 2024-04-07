@@ -161,3 +161,4 @@ cython_debug/
 
 db/*
 credentials.json
+sqlite.db
